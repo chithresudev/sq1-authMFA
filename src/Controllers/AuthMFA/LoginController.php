@@ -1,6 +1,6 @@
 <?php
 
-namespace Sq1\AuthMfa\Controllers\AuthMFA;
+namespace App\Http\Controllers\AuthMFA;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
