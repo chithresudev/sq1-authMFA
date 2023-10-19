@@ -19,7 +19,7 @@ class AuthMFAServiceProvider extends ServiceProvider
         ], 'sq1authMFA');
 
         $this->publishes([
-            __DIR__.'/../Controllers/AuthMFA' => app_path('HTTP/Controllers/'),
+            __DIR__.'/../Controllers/AuthMFA' => app_path('Http/Controllers/'),
         ], 'sq1authMFA');
 
         $this->publishes([
