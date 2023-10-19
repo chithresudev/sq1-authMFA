@@ -1,0 +1,18 @@
+{
+    "name": "sq1/auth-mfa",
+    "description": "authentication login mfs",
+    "type": "packages",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sq1\\AuthMfa\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chithresu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
