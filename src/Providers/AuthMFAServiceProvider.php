@@ -16,15 +16,15 @@ class AuthMFAServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__.'/../views/' => resource_path('views/'),
-        ]);
+        ], 'sq1authMFA');
 
         $this->publishes([
             __DIR__.'/../Controllers/AuthMFA' => app_path('HTTP/Controllers/'),
-        ]);
+        ], 'sq1authMFA');
 
         $this->publishes([
             __DIR__.'/../MFAServices' => app_path('MFAServices'),
-        ]);
+        ], 'sq1authMFA');
 
 
 
