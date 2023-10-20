@@ -27,7 +27,7 @@ class LoginController extends Controller
      */
     public function index(Request $request)
     {
-        return app_path();
+   
         return view('auth-mfa.login');
     }
 
